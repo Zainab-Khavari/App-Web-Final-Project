@@ -119,9 +119,7 @@ nav img {
 .descol h3{
     margin: 20px 20px;
     color: #f44336;
-    text-align: left;
-    
-    
+    text-align: left;  
 }
 .top{
   width: 98%;
@@ -159,7 +157,7 @@ nav img {
     margin-left: 18px;
 }
 .AboutUs{
-    width: 76%;
+    width: 75%;
     background-color: rgb(239, 243, 243);;
     justify-content: space-between;
     display: flex;
@@ -277,5 +275,6 @@ nav img {
     width: 80%;
     margin: 0px auto;
 }
+
 
 
