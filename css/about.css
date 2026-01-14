@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#about-header{
+    min-height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.3)) ,url("../images/div5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+.row{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+}
+.about-col{
+    flex-basis: 45%;
+    padding: 20px;
+}
+.about-col img{
+    width: 100%;
+}
+.about-col p{
+    margin-bottom: 20px;
+}
+

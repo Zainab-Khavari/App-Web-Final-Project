@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#book-header{
+    min-height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.3)) ,url("../images/div5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+.booking{
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    width: 700px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact-box textarea, .contact-box input, .contact-box select{
+    width: 100%;
+    padding: 20px;
+    margin: 15px 0px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background-color: #fef2f2;
+    border-radius: 8px;
+}
+.inline input , .inline label, .inline textarea{
+    width: 10%;
+    margin: 15px 0px;
+}
+
+
