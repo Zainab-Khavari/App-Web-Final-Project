@@ -207,7 +207,7 @@ nav img {
     padding: 15px 20px;
 }
 .blogposts{
-    background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url("../images/div5.JPG");
+    background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url("../images/div5.jpg");
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -267,4 +267,5 @@ nav img {
     width: 80%;
     margin: 0px auto;
 }
+
 
