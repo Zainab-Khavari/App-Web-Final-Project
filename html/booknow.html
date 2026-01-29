@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Travel Website</title>
+    <link rel="stylesheet" href="./fonts/Au Bord de la Seine.ttf" type="">
+    <link rel="stylesheet" href="../css/style.css" type="">
+    <link rel="stylesheet" href="./html/about.html" type="">
+    <link rel="stylesheet" href="../css/booknow.css" type="">
+    <link rel="stylesheet" href="./about.html" type="">
+    <link rel="preconnect" href="https://fonts.googleapis.com" type="">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet" type="">
+</head>
+<body>
+    <section class="header" id="book-header">
+        <nav>
+            <a href="index.html"> <img src="../images/logo.png"></a>
+            <div class="navlinks">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="">Book Now</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1>Let's make memories!</h1>
+    </section>
+    <section class="booking">
+            <form action="./confirmation.html" method="GET">
+                <div class="contact-box">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" placeholder="Zainab Khavari" name="full-name" id="full-name" required class="input"/>
+                </div>
+                <div class="contact-box">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="zkhavari281@gmail.com" name="email" id="email" class="input" required minlength="3">
+                </div>
+                <div class="contact-box">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="text" name="phone-number" id="phone-number" placeholder="(000)000-0000" class="input">
+                </div>
+                <div class="contact-box">
+                    <label for="adress">Address</label>
+                    <input type="text" name="adress" id="adress" class="input">
+                </div>
+                <div class="inline">
+                    <label for="">Do you have any medical conditions or allergies?</label>
+                    <input type="radio" name="idea" id="yes" value="yes"/>
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="idea" id="no" value="no">
+                    <label for="no">No</label>
+                </div>
+                <div class="contact-box"> 
+                    <label for="places">Where is your travel destination of interest?</label>
+                    <select name="score" id="places" class="input">
+                        <option value="" disabled selected hidden>These are the available tours right now.</option>
+                        <option value="">Bamyan in Afghanistan</option>
+                        <option value="">Paris in France</option>
+                        <option value="">Hawaii in the U.S</option>
+                        <option value="">Melbourne in Australia</option>
+                    </select>
+                </div>
+                <div class="inline">   
+                    <label for="">Preferred travel companions.</label>
+                    <input type="checkbox" name="companions" id="solo" value="solo">
+                    <label for="solo" >Solo Trip</label>
+                    <input type="checkbox" name="companions" id="family" value="family">
+                    <label for="family" >Family</label>
+                    <input type="checkbox" name="companions" id="group" value="group">
+                    <label for="group" >Group</label>
+                </div>
+                <div class="contact-box">
+                    <label for="comments">Additional comments</label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="red-button">Submit</button>
+                    <button type="reset" class="red-button">Reset</button>
+                </div>  
+            </form>
+    </section>
+    <footer class="footer">
+             <h3>About Us</h3>
+        <p>Whether you are seeking a luxury escape, a deep dive into local culture, or a heart-pounding adventure, our mission is to provide personalized, hassle-free travel solutions that create lifelong memories.</p>
+        <p>Made by Zainab Khavari</p>
+    </footer>
+</body>
+</html>
